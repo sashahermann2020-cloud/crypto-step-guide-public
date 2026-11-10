@@ -1389,7 +1389,7 @@
             ],
             "last_source_reviewed": "2026-11-10",
             "transaction_tested": false,
-            "evidence_scope": "Bit2Me (Bitcoinforme S.L., LEI 9598007R5LSUJLGLS853) figura como proveedor de servicios de criptoactivos (CASP) autorizado por la CNMV desde el 31.10.2025 según una copia del registro de ESMA con fecha 6.11.2026 publicada por un agregador (paymentproviders.io). El archivo CSV de ESMA no se pudo leer completo de forma automática (la lectura parcial no incluyó la fila de Bit2Me), así que la autorización no está confirmada en la fuente oficial. Tampoco se identificaron los servicios autorizados concretos. No se probó una operación real y no se verificaron los límites y requisitos de KYC, la pantalla final de comisiones ni la fiscalidad ante la Agencia Tributaria.",
+            "evidence_scope": "Bit2Me (Bitcoinforme S.L., LEI 9598007R5LSUJLGLS853) figura como proveedor de servicios de criptoactivos (CASP) autorizado por la CNMV desde el 31.10.2025 según el registro oficial de ESMA (archivo CASPS.csv, leído el 10.11.2026, con filas actualizadas hasta el 03.11.2026): servicios de custodia, cambio de criptoactivos por fondos y por otros criptoactivos, ejecución, colocación y recepción y transmisión de órdenes, y transferencias, con pasaporte a otros países del EEE. En el registro de emisores de EMT de ESMA figura Circle (USDC y EURC) y no figura Tether. La CNMV no se consultó directamente. No se probó una operación real y no se verificaron los límites y requisitos de KYC, la pantalla final de comisiones ni la fiscalidad ante la Agencia Tributaria.",
             "methods": [
               "bank"
             ],
@@ -1457,7 +1457,7 @@
             ],
             "last_source_reviewed": "2026-11-10",
             "transaction_tested": false,
-            "evidence_scope": "Só foram lidas páginas públicas da Foxbit e a tabela do Banco Central (autorizaBC, atualizada em 06/11/2026) em 10.11.2026. Não foram verificados: operação real, spread e tabela de taxas de conversão Pix ↔ stablecoin, nomes exatos dos botões da conversão, a autorização da empresa no Banco Central, o texto das resoluções BCB 520, 521 e 589 e a tributação. Binance, Ripio, Bybit e OKX não foram incluídos.",
+            "evidence_scope": "Só foram lidas páginas públicas da Foxbit, a tabela do Banco Central (autorizaBC, atualizada em 06/11/2026) e o texto da Resolução BCB 589 (art. 91) no site do Banco Central em 10.11.2026. Não foram verificados: operação real, spread e tabela de taxas de conversão Pix ↔ stablecoin, nomes exatos dos botões da conversão, a decisão do Banco Central sobre o pedido da empresa, o texto das resoluções BCB 520 e 521 e a tributação. Binance, Ripio, Bybit e OKX não foram incluídos.",
             "methods": [
               "bank"
             ],
@@ -1510,7 +1510,7 @@
             ],
             "last_source_reviewed": "2026-11-10",
             "transaction_tested": false,
-            "evidence_scope": "Só foram lidas páginas públicas do Mercado Bitcoin e a tabela do Banco Central (autorizaBC, atualizada em 06/11/2026) em 10.11.2026. Os passos vêm de artigos do blog da própria empresa e de um artigo de suporte sobre depósito, não de um guia do app. Não foram verificados: operação real, spread e tabelas de taxas, nomes exatos dos botões, a autorização da empresa no Banco Central, o texto das resoluções BCB 520, 521 e 589 e a tributação.",
+            "evidence_scope": "Só foram lidas páginas públicas do Mercado Bitcoin, a tabela do Banco Central (autorizaBC, atualizada em 06/11/2026) e o texto da Resolução BCB 589 (art. 91) no site do Banco Central em 10.11.2026. Os passos vêm de artigos do blog da própria empresa e de um artigo de suporte sobre depósito, não de um guia do app. Não foram verificados: operação real, spread e tabelas de taxas, nomes exatos dos botões, a decisão do Banco Central sobre o pedido da empresa, o texto das resoluções BCB 520 e 521 e a tributação.",
             "methods": [
               "bank"
             ],

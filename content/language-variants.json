@@ -230,7 +230,7 @@
       "intro": "En España, los proveedores de servicios de criptoactivos necesitan autorización según el Reglamento MiCA, con supervisión de la CNMV; desde el 1.7.2026 solo pueden operar los autorizados. USDT no está prohibido, pero las plataformas con licencia MiCA no pueden ofrecerlo porque Tether no figura entre los emisores de EMT autorizados. La alternativa regulada es USDC.",
       "alerts": [
         "Si una plataforma española te ofrece USDT, pregúntate cómo es posible: según el registro de ESMA, Tether no es un emisor de EMT autorizado.",
-        "La autorización de Bit2Me como CASP se comprobó en una copia del registro de ESMA publicada por un agregador; el archivo oficial de ESMA no se pudo leer completo."
+        "La autorización de Bit2Me como CASP (CNMV, 31.10.2025) figura en el registro oficial de ESMA, leído el 10.11.2026. No consultamos el registro de la CNMV directamente."
       ],
       "law": [
         {
@@ -267,7 +267,7 @@
       "intro": "No Brasil, o Banco Central (BCB) regula as prestadoras de serviços de ativos virtuais. Foxbit e Mercado Bitcoin aparecem na tabela de pedidos de autorização do BCB com a situação «Em exame» (tabela atualizada em 06/11/2026). O próprio BCB informa que constar na tabela não significa autorização. A Mercado Bitcoin informou ter pedido autorização em 27/10/2026 e a imprensa cita a Foxbit entre as solicitantes; a decisão do BCB ainda não saiu.",
       "alerts": [
         "«Em exame» não é «autorizada». As empresas podem continuar operando enquanto o pedido é analisado, segundo a imprensa especializada, mas o resultado ainda não é conhecido.",
-        "Desde 06/11/2026 bancos e instituições de pagamento não podem operar com prestadoras que não estejam autorizadas (Resolução BCB 589, que alterou o art. 91 da Resolução BCB 520). A redação exata do artigo não foi conferida no texto original; consulte a norma em normativos.bcb.gov.br.",
+        "Pela Resolução BCB 589 (de 23/09/2026), que mudou o art. 91 da Resolução BCB 520, desde 06/11/2026 é vedado a instituições financeiras e de pagamento realizar ou viabilizar operações no mercado de ativos virtuais com prestadoras que não estejam autorizadas a funcionar no país, salvo nas formas expressamente previstas na norma. Não avaliamos o efeito disso sobre depósitos e saques em reais (Pix): confirme no site ou no app da empresa se estão operando normalmente.",
         "O regulador exige que as empresas informem seu status regulatório no site e no app: confira esse aviso antes de se cadastrar."
       ],
       "law": [

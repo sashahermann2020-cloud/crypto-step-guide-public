@@ -228,9 +228,13 @@ def main():
         if slug:
             check("BreadcrumbList" in types, f"{url}: JSON-LD is missing BreadcrumbList")
         organizations = [node for node in entities if node.get("@type") == "Organization"]
-        pages_ld = [node for node in entities if node.get("@type") in ("WebSite", "WebPage") or isinstance(node.get("@type"), list)]
-        check(pages_ld and all(node.get("isAccessibleForFree") is True for node in pages_ld if node.get("@type") != "Organization"),
-              f"{url}: WebSite and WebPage JSON-LD must declare isAccessibleForFree=true (the site is free)")
+        free_types = {"WebSite", "WebPage", "AboutPage", "Article"}
+        pages_ld = [node for node in entities
+                    if free_types & set(node["@type"] if isinstance(node["@type"], list) else [node["@type"]])]
+        check(any(node.get("@type") == "WebSite" for node in pages_ld) and any(node.get("@type") != "WebSite" for node in pages_ld),
+              f"{url}: JSON-LD must contain WebSite and a page entity")
+        check(all(node.get("isAccessibleForFree") is True for node in pages_ld),
+              f"{url}: WebSite, WebPage and Article JSON-LD must declare isAccessibleForFree=true (the site is free)")
         check(all(node.get("description") for node in organizations), f"{url}: Organization schema is missing description")
         check(any(node.get("logo") for node in organizations),
               f"{url}: Organization schema is missing logo")
