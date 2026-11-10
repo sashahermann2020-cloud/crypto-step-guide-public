@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crypto-step-guide.com/schemas/routes.schema.json",
+  "title": "Crypto Step Guide regional routes",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "last_reviewed_on",
+    "routes_by_country"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "last_reviewed_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "routes_by_country": {
+      "type": "object",
+      "required": [
+        "belarus",
+        "ukraine",
+        "russia",
+        "kazakhstan",
+        "uzbekistan",
+        "serbia",
+        "kyrgyzstan"
+      ],
+      "properties": {
+        "ukraine": {
+          "$ref": "#/$defs/routeList"
+        },
+        "belarus": {
+          "$ref": "#/$defs/routeList"
+        },
+        "russia": {
+          "$ref": "#/$defs/routeList"
+        },
+        "kazakhstan": {
+          "$ref": "#/$defs/routeList"
+        },
+        "uzbekistan": {
+          "$ref": "#/$defs/routeList"
+        },
+        "serbia": {
+          "$ref": "#/$defs/routeList"
+        },
+        "kyrgyzstan": {
+          "$ref": "#/$defs/routeList"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "routeList": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/route"
+      }
+    },
+    "route": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "status",
+        "label",
+        "currency",
+        "payment",
+        "service",
+        "source",
+        "steps",
+        "last_source_reviewed",
+        "transaction_tested",
+        "evidence_scope",
+        "service_id",
+        "methods",
+        "purchase_step_count",
+        "funding_mode",
+        "checks_before_payment",
+        "sources",
+        "allowed_destinations"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "ready",
+            "conditional",
+            "blocked"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "currency": {
+          "type": "string",
+          "minLength": 1
+        },
+        "payment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "service": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "last_source_reviewed": {
+          "type": "string",
+          "format": "date"
+        },
+        "transaction_tested": {
+          "type": "boolean"
+        },
+        "evidence_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "service_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "methods": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "bank",
+              "card",
+              "local",
+              "p2p"
+            ]
+          }
+        },
+        "purchase_step_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "allowed_destinations": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "trust",
+              "tronlink",
+              "other",
+              "exchange"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "wallet_withdrawal_blocked": {
+          "type": "boolean"
+        },
+        "destination_notice": {
+          "type": "string",
+          "minLength": 1
+        },
+        "funding_mode": {
+          "enum": [
+            "balance",
+            "p2p",
+            "direct"
+          ]
+        },
+        "checks_before_payment": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "url"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https://"
+              }
+            }
+          }
+        },
+        "fixed_destination": {
+          "type": "string",
+          "enum": [
+            "personal_wallet"
+          ],
+          "description": "Маршрут сразу перечисляет актив на личный адрес; в мастере не предлагается хранение на балансе сервиса."
+        },
+        "purchase_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "purchase_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "network": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}

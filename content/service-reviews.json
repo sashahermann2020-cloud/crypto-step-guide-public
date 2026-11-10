@@ -1,0 +1,642 @@
+{
+  "schema_version": 1,
+  "services": {
+    "binance-kz": {
+      "name": "Binance Kazakhstan",
+      "operator": "BN KZ Technologies Limited",
+      "regulation": "AFSA-A-LA-2024-0028, active in the AFSA register (checked 2026-10-18)"
+    },
+    "bybit-kz": {
+      "name": "Bybit Kazakhstan",
+      "operator": "Bybit Limited",
+      "regulation": "AFSA-A-LA-2024-0027, active in the AFSA register (checked 2026-10-18)"
+    },
+    "asterium-uz": {
+      "name": "Asterium",
+      "operator": "ASTERIUM Joint-Stock Company",
+      "regulation": "NAPP: CE #0006, CD #0007 and CS #0017; CE #0006 confirmed in the current register"
+    },
+    "bybit-ru": {
+      "name": "Bybit P2P",
+      "operator": "P2P between users; Bybit is not confirmed here as a Russian-registered intermediary",
+      "regulation": "Bank of Russia FAQ: direct P2P between individuals only until 2027-07-01; it does not validate a specific platform or bank transfer; transfer to one’s own noncustodial wallet is not permitted under part 9, Article 31 of law 282-FZ."
+    },
+    "rft": {
+      "name": "ООО «Развитие финансовых технологий»",
+      "operator": "ООО «Развитие финансовых технологий», ИНН 9723246073, ОГРН 1247700832257",
+      "regulation": "Bank of Russia decision dated 2026-10-16 added RFT to the digital currency exchange register; registration alone does not establish a retail route."
+    },
+    "ausu-kz": {
+      "name": "AUSU",
+      "operator": "AUSU LLP",
+      "regulation": "На странице AUSU указана лицензия Национального банка Казахстана № 1726001О от 30.07.2026; публичная ссылка ведёт в реестр НБК."
+    },
+    "citypay-uz": {
+      "name": "CityPay Uzbekistan",
+      "operator": "СП ООО CITY PAY GATE",
+      "regulation": "NAPP: crypto-depository CD #0004 и crypto-shop CS #0012; текущая публичная оферта опубликована 20.08.2026."
+    },
+    "voluto-uz": {
+      "name": "Voluto",
+      "operator": "PAYNET CRYPTO LLC (UZPAYNET)",
+      "regulation": "В актуальном реестре NAPP указаны лицензии crypto-depository CD #0002 и crypto-shop CS #0006."
+    },
+    "ecd-serbia": {
+      "name": "ECD",
+      "operator": "MCM 965 D.O.O. Beograd (Čukarica), registration no. 20731796",
+      "regulation": "National Bank of Serbia register of virtual currency service providers; decision G. No 12066 dated 16.12.2022. The register lists purchase/sale for cash and scriptural money, custody and related services.",
+      "route_scope": "ECD Wallet: RSD deposit → USDT purchase → external withdrawal; ECD crypto ATM: cash RSD → USDT ERC-20 to personal address.",
+      "status": "conditional"
+    },
+    "whitebit-p2p-express": {
+      "name": "WhiteBIT / P2P Express",
+      "operator": "WhiteBIT user agreement lists group companies and third-party fiat providers. The specific P2P Express payment provider and its contracting legal entity are not identified in the public instruction reviewed.",
+      "regulation": "No separate regulatory status for the third-party P2P Express provider established in this review.",
+      "route_scope": "UAH card → third-party provider card → USDT credited to WhiteBIT balance; the public flow does not establish a complete personal-wallet route.",
+      "status": "hold"
+    },
+    "bynex-belarus": {
+      "name": "BYNEX / ERPBEL",
+      "operator": "HTP public records identify ERPBEL as a resident. This entry does not establish the current contracting entity or its authorization for a specific crypto service.",
+      "regulation": "Belarus MNS guidance reviewed 2026-10-29 says paid token purchase/sale operations must be conducted through HTP residents. EU Regulation 765/2006 Article 1zf may prohibit transactions with Belarus-established crypto service providers within its scope; specific applicability requires legal review.",
+      "route_scope": "No fully documented payment → USDT → personal-wallet path established.",
+      "status": "hold"
+    },
+    "bybit-ua": {
+      "name": "Bybit P2P (Ukraine UAH)",
+      "operator": "P2P-сделка между пользователями; Bybit предоставляет площадку и эскроу-процесс, но не является продавцом фиата или USDT в конкретном объявлении.",
+      "regulation": "Bybit публикует ограничения по странам/регионам; допуск зависит от страны KYC, санкционных правил и конкретного профиля.",
+      "route_scope": "UAH переводится продавцу по активному P2P-ордеру → USDT зачисляются на аккаунт Bybit → отдельный on-chain-вывод на личный кошелёк.",
+      "status": "conditional"
+    },
+    "dzengi-belarus": {
+      "name": "Dzengi",
+      "operator": "ЗАО «Дзеньги», УНП 193665666; официальный реестр ПВТ содержит запись оператора и вид деятельности «оператор криптоплатформы» (проверено 2026-10-30).",
+      "regulation": "Резидент ПВТ; запись подтверждает оператора и заявленную деятельность, но не устанавливает применимость всех ограничений к конкретному пользователю или информационному сайту.",
+      "route_scope": "BYN пополнение → покупка USDT/BYN → отдельный вывод на личный внешний кошелёк; KYC, 2FA, сеть, минимум и комиссия зависят от аккаунта.",
+      "status": "conditional"
+    },
+    "free2ex-belarus": {
+      "name": "FREE2EX",
+      "operator": "ЗАО «Пиксел Интернет», УНП 590995582; официальный реестр ПВТ содержит запись оператора и вид деятельности «оператор криптоплатформы» (проверено 2026-10-30).",
+      "regulation": "Резидент ПВТ; запись подтверждает оператора и заявленную деятельность, но не устанавливает применимость всех ограничений к конкретному пользователю или информационному сайту.",
+      "route_scope": "BYN пополнение → покупка USDT/BYN → отдельный вывод USDT ERC-20/TRC-20 только на личный кошелёк; KYC, тариф и доступность зависят от аккаунта.",
+      "status": "conditional"
+    },
+    "dantepay-kg": {
+      "name": "DantePay",
+      "operator": "ЗАО «Стандарт Девелопмент»",
+      "regulation": "Лицензия оператора обмена виртуальных активов № 06 (бланк ВА №0009) от 21.12.2022, бессрочная; статус «Действует» в реестре Службы регулирования и надзора за финансовым рынком (проверено 06.11.2026)."
+    }
+  },
+  "reviews_by_country": {
+    "kazakhstan": [
+      {
+        "id": "kazakhstan-review-1",
+        "name": "Binance Kazakhstan",
+        "service_id": "binance-kz",
+        "findings": "Проверена действующая лицензия AFSA; официальные инструкции Binance Kazakhstan описывают пополнение KZT через Freedom/QazPost, Alatau City Bank (пока карточные счета ACB) и местную Mastercard. Отдельно объявлена P2P-модель с финансовыми организациями P2Pro/Maker и корпоративным IBAN. Пара USDT/KZT и внешний вывод описаны в официальных материалах.",
+        "missing": "Для Bybit KZ-финансового канала нужна завершённая KZ-верификация и перевод со своего счёта банка из списка в аккаунте; отдельный счёт в BCC не обязателен. Доступность методов, комиссии, минимум и сеть вывода проверяются в профиле.",
+        "decision": "Включены: четыре карточки Binance (Freedom/QazPost, Alatau, Mastercard, P2Pro P2P) и один банковский маршрут Bybit; доступность в аккаунте проверить до оплаты, операции не тестировались.",
+        "status": "ready",
+        "last_source_reviewed": "2026-10-18"
+      },
+      {
+        "id": "kazakhstan-review-2",
+        "name": "Bybit Kazakhstan",
+        "service_id": "bybit-kz",
+        "findings": "Действующая лицензия AFSA, фиатное пополнение только в KZT через банковский перевод из списка, покупка USDT и on-chain-вывод с проверкой личного кошелька описаны в текущих инструкциях.",
+        "missing": "Нужны индивидуальная KYC-верификация Казахстана, доступный поддерживаемый банк и совпадение плательщика с данными аккаунта. Комиссии и сеть видны в аккаунте до подтверждения.",
+        "decision": "Включён: документированный путь для KZ-верифицированного профиля и доступного банка; собственный счёт именно в Bank CenterCredit не требуется.",
+        "status": "ready",
+        "last_source_reviewed": "2026-10-18"
+      },
+      {
+        "id": "kazakhstan-review-3",
+        "name": "ATAIX Eurasia",
+        "service_id": null,
+        "findings": "Лицензия AFSA-A-LA-2025-0022 активна в реестре AFSA (проверено 06.11.2026). Справка ATAIX описывает вывод KZT банковским переводом на счёт владельца аккаунта (минимум 12 750 KZT, зачисление на следующий рабочий день) и вывод криптовалюты с Travel Rule.",
+        "missing": "Официальная справка не подтверждает пару USDT/KZT для частных клиентов и сети вывода USDT; в прошлой проверке торговля описывалась только для юридических лиц.",
+        "decision": "Отложен: не показывается как маршрут покупки или продажи, пока официальные страницы не подтвердят USDT/KZT и сеть вывода для частного клиента.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-11-06"
+      },
+      {
+        "id": "kazakhstan-review-4",
+        "name": "Freedom Finance Global",
+        "service_id": null,
+        "findings": "Лицензия AFSA-A-LA-2020-0019 активна. С 03.06.2026 Freedom Finance Global открыл криптосчета: кастодиальное хранение, покупка, продажа и конвертация.",
+        "missing": "Нет официальной инструкции покупки USDT за KZT и подтверждения вывода на внешний личный кошелёк; ключи хранит компания, вывод занимает не менее пяти рабочих дней по описанию в СМИ.",
+        "decision": "Отложен до публикации официальных условий USDT/KZT и вывода на внешний адрес.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-11-06"
+      },
+      {
+        "id": "kazakhstan-review-5",
+        "name": "Delta DA",
+        "service_id": null,
+        "findings": "Площадка описывает пополнение обычными деньгами, торговлю и вывод на одобренный внешний адрес.",
+        "missing": "Публично не подтверждены условия розничного входа, конкретный маршрут KZT → USDT, способы оплаты и все комиссии.",
+        "decision": "Недостаточно данных Не включён до подтверждения полного пути.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-10-06"
+      },
+      {
+        "id": "kazakhstan-review-6",
+        "name": "AnchorX",
+        "service_id": null,
+        "findings": "Активная лицензия и услуги с цифровыми активами.",
+        "missing": "Сервис прямо указывает, что сейчас принимает только профессиональных клиентов.",
+        "decision": "Исключён Не подходит начинающему частному клиенту.",
+        "status": "hold",
+        "last_source_reviewed": "2026-10-06"
+      },
+      {
+        "id": "kazakhstan-review-7",
+        "name": "WhiteBIT Kazakhstan и Apola Finance",
+        "service_id": null,
+        "findings": "Юридические лица присутствуют в реестре AFSA.",
+        "missing": "Статус лицензий в реестре: приостановлены.",
+        "decision": "Исключены Приостановленный оператор не используется в маршруте.",
+        "status": "hold",
+        "last_source_reviewed": "2026-10-06"
+      },
+      {
+        "id": "kazakhstan-review-8",
+        "name": "Новые операторы 2026 года",
+        "service_id": null,
+        "findings": "В реестре AFSA пять лицензий 2026 года (AROOT Kazakhstan, TG Wallet KZ, Symphony Digital Assets KZ, Credence Capital, CodeCoin Tech) со статусом «лицензия выдана, ожидается разрешение на начало деятельности».",
+        "missing": "Ни один из операторов не получил разрешения начать работу.",
+        "decision": "Не включены до перехода в статус Active и публикации розничных условий.",
+        "status": "hold",
+        "last_source_reviewed": "2026-11-06"
+      },
+      {
+        "id": "kazakhstan-review-9",
+        "name": "AUSU",
+        "service_id": "ausu-kz",
+        "findings": "Официальная страница указывает лицензию НБК № 1726001О, онлайн-обмен по собственной карте или IBAN, кассу в Шымкенте, минимум 25 000 KZT, USDT TRON и перевод на подтверждённый кошелёк. Для кассы требуется онлайн-регистрация и проверка до визита.",
+        "missing": "Не проверены котировка конкретного заказа, доступность платежа в аккаунте и фактическая операция. Онлайн-заказы могут исполняться до 48 часов; касса работает только по будням 09:00–18:00 по времени Астаны.",
+        "decision": "Включён в три отдельные карточки: собственная карта, IBAN своего счёта и наличные в офисе Шымкента. Реальная операция не выполнялась.",
+        "status": "ready",
+        "last_source_reviewed": "2026-10-27"
+      }
+    ],
+    "uzbekistan": [
+      {
+        "id": "uzbekistan-review-1",
+        "name": "Asterium",
+        "service_id": "asterium-uz",
+        "findings": "Текущая публичная оферта Asterium описывает пополнение с карты/счёта клиента и вывод криптоактива на адрес, указанный клиентом; страница продукта указывает UZS/USDT и USDT в сети TRON. Реестр NAPP подтверждает CE #0006; в футере Asterium также перечислены CD #0007 и CS #0017.",
+        "missing": "Asterium может запросить дополнительные документы/биометрию и ограничивает географию обслуживания. Конкретный способ UZS-пополнения, курс, минимум и комиссия зависят от профиля; реальная операция не выполнялась.",
+        "decision": "Включён: публичные документы описывают UZS → USDT TRON → адрес клиента; до оплаты проверьте допуск аккаунта, доступный способ и расходы.",
+        "status": "ready",
+        "last_source_reviewed": "2026-10-18"
+      },
+      {
+        "id": "uzbekistan-review-2",
+        "name": "COINPAY / Binance",
+        "service_id": null,
+        "findings": "Лицензии НАПП CE #0007 и CS #0020 переоформлены 12.10.2026 из-за смены адреса.",
+        "missing": "На сайте COINPAY на 06.11.2026 пополнение HUMO/Uzcard, регистрация через MyID и обмен Fiat/Crypto по-прежнему помечены «Coming soon».",
+        "decision": "Отложен до запуска заявленных функций.",
+        "status": "hold",
+        "last_source_reviewed": "2026-11-06"
+      },
+      {
+        "id": "uzbekistan-review-3",
+        "name": "CityPay Uzbekistan",
+        "service_id": "citypay-uz",
+        "findings": "Текущая публичная страница описывает покупку и продажу в UZS через Paynet, Uzcard или HUMO с комиссией покупки 1–3%; для внешних переводов опубликована сетевая комиссия без отдельной комиссии CityPay. Оферта от 20.08.2026 описывает кастодиальный кошелёк, сети USDT, лимиты, минимальную отправку и возможность запросить KYC. NAPP указывает CD #0004 и CS #0012.",
+        "missing": "Оферта не обещает автоматическое открытие кошелька после принятия условий и допускает запрос дополнительных документов; доступность оплаты, точный тариф и KYC для аккаунта не проверялись. Реальная покупка и внешний перевод не выполнялись.",
+        "decision": "Показан как условный онлайн-маршрут Paynet/Uzcard/HUMO → USDT → внешний кошелёк; перед оплатой нужно подтвердить допуск, тариф, минимум и сеть в интерфейсе.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-10-27"
+      },
+      {
+        "id": "uzbekistan-review-4",
+        "name": "Voluto (PAYNET CRYPTO)",
+        "service_id": "voluto-uz",
+        "findings": "Официальный сайт описывает наличную покупку UZS/USD в офисе Labzak 2A, Ташкент, передачу USDT в кошелёк клиента, сеть TRC-20, минимум 200 USDT, часы 12:00–23:30 ежедневно, документ личности и регистрацию от 18 лет. NAPP указывает для PAYNET CRYPTO лицензии CD #0002 и CS #0006.",
+        "missing": "Не проверялись фактическая котировка, документы иностранного клиента, предварительная запись, наличие кассира/ликвидности и реальная операция. До поездки нужно подтвердить, что сервис обслуживает конкретный документ и статус клиента.",
+        "decision": "Показан как условный наличный маршрут в Ташкенте; актуальные часы, документ, доступность, итоговую цену и минимум нужно сверить перед визитом.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-10-27"
+      },
+      {
+        "id": "uzbekistan-review-5",
+        "name": "Новые криптомагазины 2026 года",
+        "service_id": null,
+        "findings": "В реестре НАПП появились UNEX PAYMENTS (CS #0018, с 24.06.2026), NAQD-EX (CS #0019, 06.08.2026) и MONETEX (CS #0021, 26.10.2026). CRYPTO EXPRESS, CRYPTOCORP, C-CASH, T-FIRM и CRYPTO MAGNAT приостановлены на шесть месяцев с осени 2026 года.",
+        "missing": "У новых криптомагазинов нет опубликованных условий покупки или продажи USDT, способов оплаты и вывода.",
+        "decision": "Не включены до публикации официальных условий.",
+        "status": "hold",
+        "last_source_reviewed": "2026-11-06"
+      },
+      {
+        "id": "uzbekistan-review-6",
+        "name": "Продажа USDT за сумы",
+        "service_id": null,
+        "findings": "Справка CityPay описывает продажу USDT в приложении Paynet с выплатой сумов на карту UzCard или Humo: комиссия 2%, минимум 1 USDT, общий лимит покупки и продажи 2 500 USDT в день и 40 000 USDT в месяц.",
+        "missing": "Документы Asterium не открылись для проверки; у Voluto не указан курс покупки USDT у клиента.",
+        "decision": "Опубликован условный маршрут продажи CityPay через Paynet. Отдельная оферта на кошелёк не регулирует обмен, а покупка и продажа описаны в справке CityPay о криптомагазине; маршрут покупки CityPay остаётся верным.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-11-06"
+      }
+    ],
+    "russia": [
+      {
+        "id": "russia-review-bybit-p2p",
+        "name": "Bybit P2P",
+        "service_id": "bybit-ru",
+        "findings": "FAQ Банка России, обновлённый 12.10.2026, допускает прямые P2P-сделки между физлицами только до 01.07.2027 и отдельно указывает, что физлицу не разрешён перевод на собственный некастодиальный кошелёк. Запись о P2P не доказывает доступность Bybit-объявления или допустимость конкретного банковского перевода.",
+        "missing": "Не проверены живые RUB/USDT-объявления, банк и конкретный пользователь. Не подтверждён полный розничный RUB → USDT → личный кошелёк через регулируемого посредника; реальная операция не тестировалась.",
+        "decision": "Оставлен только условный сценарий до кастодиального баланса; личный кошелёк не предлагается.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-10-18"
+      },
+      {
+        "id": "russia-review-rft",
+        "name": "ООО «Развитие финансовых технологий»",
+        "service_id": "rft",
+        "findings": "Банк России решением от 16.10.2026 включил ООО «Развитие финансовых технологий» в реестр организаций обмена цифровых валют. В открытых материалах компании описаны международные расчёты для бизнеса.",
+        "missing": "Публично не подтверждены розничный клиентский вход, приём RUB от физлица, покупка USDT, кастодиальный баланс и вывод на личный адрес. Включение в реестр само по себе не закрывает эти этапы.",
+        "decision": "Не включён: наличие записи в реестре подтверждено, полного розничного пути нет.",
+        "status": "hold",
+        "last_source_reviewed": "2026-10-18"
+      }
+    ],
+    "serbia": [
+      {
+        "id": "serbia-review-1",
+        "name": "ECD Wallet and ECD Crypto ATM",
+        "service_id": "ecd-serbia",
+        "findings": "NBS currently lists MCM 965 d.o.o. as a virtual currency service provider. ECD documents foreigner eligibility (valid passport and proof of Serbian residence; in-person verification), RSD deposit and purchase through ECD Wallet, and cash purchase via crypto ATMs in Belgrade and Novi Sad. Published pages provide USDT purchase minima and fees, and external crypto withdrawal.",
+        "missing": "No ECD profile, bank deposit, ATM purchase, or external withdrawal was tested. The fee schedule for buying via a payment order differs from the ECD Wallet purchase route; Serbian and English FAQs also differ on the ERC-20 fixed USDT withdrawal fee. Live availability and the fee shown in the user's account must be checked before payment.",
+        "decision": "Two conditional routes added: RSD deposit and Wallet purchase, and cash purchase at an ECD crypto ATM. Foreign nationals need proof of residence in Serbia and in-person verification; users must check account eligibility, current fee quote, network and terminal status.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-10-27"
+      }
+    ],
+    "ukraine": [
+      {
+        "id": "ukraine-review-whitebit-p2p-express",
+        "name": "WhiteBIT P2P Express",
+        "service_id": "whitebit-p2p-express",
+        "findings": "WhiteBIT’s official Russian-language instruction documents UAH payment to a bank card specified by a third-party provider and USDT credit to the WhiteBIT exchange balance. It states the transaction takes place outside the exchange through that provider.",
+        "missing": "The public material reviewed does not identify the provider’s contracting legal entity. It does not by itself establish that the selected payment and a separate personal-wallet withdrawal are available to the specific user; account eligibility, KYC, limits, fees, network and withdrawal conditions need confirmation.",
+        "decision": "Keep as a sourced research candidate only. Do not present a purchase route or operator CTA until the provider and the full personal-wallet path are documented.",
+        "status": "hold",
+        "last_source_reviewed": "2026-10-29"
+      },
+      {
+        "id": "ukraine-review-bybit-p2p",
+        "name": "Bybit P2P",
+        "service_id": "bybit-ua",
+        "findings": "Официальная страница Bybit показывает актуальные предложения USDT/UAH. P2P-правила описывают сделку между пользователями, KYC и перевод только с платёжного аккаунта на то же имя, что указано в KYC; отдельная справка описывает on-chain-вывод.",
+        "missing": "Доступность KYC-профиля, конкретного объявления, банка и способа оплаты не подтверждена для пользователя. Правила НБУ и банка нужно применить к фактическому способу перевода; минимум, комиссия и сеть вывода показываются в аккаунте. Реальная покупка/вывод не проводились.",
+        "decision": "Включить как условный маршрут с динамическими объявлениями и проверками до оплаты; не гарантировать допуск или доступность банка. WhiteBIT P2P Express остаётся hold из-за неустановленного договорного лица провайдера и неполного подтверждения вывода.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-10-30"
+      }
+    ],
+    "belarus": [
+      {
+        "id": "belarus-review-bynex",
+        "name": "BYNEX / ERPBEL",
+        "service_id": "bynex-belarus",
+        "findings": "Belarus MNS guidance reviewed 2026-10-29 says paid token purchases and sales by individuals should be made through HTP residents and describes restrictions involving foreign platforms and direct transfers between individuals. HTP residency alone does not establish the operator’s authorization or a specific product path.",
+        "missing": "The current contracting entity, HTP/operator status for the chosen crypto activity, user and payment eligibility, complete purchase flow, personal-wallet withdrawal, network and fees have not been established. Cross-border restrictions, including EU Regulation 765/2006 Article 1zf within its scope, require jurisdiction-specific legal review.",
+        "decision": "Do not include a route or operator CTA until the service and legal reviews are complete and a full official payment → USDT → personal-wallet path is documented.",
+        "status": "hold",
+        "last_source_reviewed": "2026-10-29"
+      },
+      {
+        "id": "belarus-review-dzengi",
+        "name": "Dzengi",
+        "service_id": "dzengi-belarus",
+        "findings": "Публичный реестр ПВТ содержит действующую запись ЗАО «Дзеньги» как оператора криптоплатформы. Официальные материалы описывают BYN-пополнение, покупку USDT/BYN и вывод на собственный внешний кошелёк при включённой 2FA.",
+        "missing": "KYC, допустимые способы пополнения, текущий тариф и сеть зависят от аккаунта; реальные операции не тестировались. МНС запрещает содействие операциям с токенами других лиц с целью дохода; применимость к информационному сайту не установлена. Ограничения ЕС по статьям 1zf и 2w требуют проверки для оператора, гражданства/резиденции пользователя и исключений.",
+        "decision": "Условно включить технический маршрут только с предупреждением о правовой допустимости и стоп-условием при неясной применимости ограничений; публикация не является юридическим заключением для сайта или пользователя.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-10-30"
+      },
+      {
+        "id": "belarus-review-free2ex",
+        "name": "FREE2EX",
+        "service_id": "free2ex-belarus",
+        "findings": "Публичный реестр ПВТ содержит действующую запись ЗАО «Пиксел Интернет» как оператора криптоплатформы. Официальные материалы описывают банковское и местное BYN-пополнение, торговлю USDT/BYN и вывод USDT ERC-20/TRC-20 только на личный внешний кошелёк.",
+        "missing": "KYC, конкретный способ пополнения, тариф и проверка сети зависят от аккаунта; реальные операции не тестировались. МНС запрещает содействие операциям с токенами других лиц с целью дохода; применимость к информационному сайту не установлена. Ограничения ЕС по статьям 1zf и 2w требуют проверки для оператора, гражданства/резиденции пользователя и исключений.",
+        "decision": "Условно включить технический маршрут только с предупреждением о правовой допустимости и стоп-условием при неясной применимости ограничений; публикация не является юридическим заключением для сайта или пользователя.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-10-30"
+      }
+    ],
+    "kyrgyzstan": [
+      {
+        "id": "kyrgyzstan-review-1",
+        "name": "DantePay (ЗАО «Стандарт Девелопмент»)",
+        "service_id": "dantepay-kg",
+        "findings": "Сайт указывает лицензию оператора обмена виртуальных активов № 0009 от 21.12.2022; описаны покупка и продажа USDT за сомы, пополнение через ELQR из MBank, Bakai, Optima и других банков, наличные через терминалы «Оной», вывод на свой криптокошелёк с выбором сети, верификация паспортом. Компании нет в найденных публикациях об отзыве лицензий (июль 2025 – январь 2026). Лицензия подтверждена в официальном реестре fsa.gov.kg 06.11.2026: № 06, бланк ВА №0009, бессрочная, «Действует».",
+        "missing": "Сети USDT и лимиты на сайте не перечислены; доступность приложения указана противоречиво (App Store и Google Play, но «пока только iOS»).",
+        "decision": "Включён условным маршрутом покупки и продажи; сеть и доступность приложения проверяются до оплаты.",
+        "status": "conditional",
+        "last_source_reviewed": "2026-11-06"
+      },
+      {
+        "id": "kyrgyzstan-review-2",
+        "name": "Binance: сомы → KGST → USDT через ELQR",
+        "service_id": null,
+        "findings": "По публикациям октября 2026 года Binance принимает пополнение в сомах через QR-систему ELQR (партнёр MegaPay): сомы конвертируются в стейблкоин KGST, затем KGST меняется на USDT на споте; до 13.01.2027 обмен KGST/USDT без торговой комиссии.",
+        "missing": "Официальная справка Binance о пополнении через ELQR не найдена; материалы СМИ рекламные. Местная лицензия Binance в Кыргызстане не подтверждена.",
+        "decision": "Отложен до официальной инструкции Binance и подтверждения правового статуса.",
+        "status": "hold",
+        "last_source_reviewed": "2026-11-06"
+      },
+      {
+        "id": "kyrgyzstan-review-3",
+        "name": "Лицензированные операторы обмена",
+        "service_id": null,
+        "findings": "Режим лицензирования действует с 2022 года. На конец 2025 года – 82 оператора обмена; в 2025 году отозваны 26 лицензий. В начале 2026 года лицензии получили Big Crypto, Bil Pay, Freedom Broker, Aktiv Invest, Martain Finance, Cameron и другие.",
+        "missing": "Публичные розничные условия и вывод на личный кошелёк у новых лицензиатов не опубликованы; высокая частота отзыва лицензий требует сверки статуса перед каждой публикацией.",
+        "decision": "Исследовательский список; страна не добавлена в мастер.",
+        "status": "hold",
+        "last_source_reviewed": "2026-11-06"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://publicreg.myafsa.com/dasp/?sort=license_number",
+      "label": "AFSA: реестр операторов цифровых активов"
+    },
+    {
+      "url": "https://www.binance.com/en-KZ/support/faq/detail/d82332106fbf4bcf9624253f19ad3d9a",
+      "label": "Binance Kazakhstan: Freedom Bank и QazPost"
+    },
+    {
+      "url": "https://www.binance.com/en/support/faq/detail/698dcbd0b4c34b489a0895b7a0d53400",
+      "label": "Binance Kazakhstan: Alatau City Bank"
+    },
+    {
+      "url": "https://www.binance.com/ru-KZ/support/faq/detail/3c06ef449ffe48b9b9b1729d3fba4825",
+      "label": "Binance Kazakhstan: Mastercard"
+    },
+    {
+      "url": "https://www.binance.com/en-KZ/support/announcement/detail/d77766d245a844009d2b625ecb78038b",
+      "label": "Binance Kazakhstan: регулируемая P2P-модель с лицензированными P2Pro"
+    },
+    {
+      "url": "https://www.binance.com/en-KZ/support/faq/detail/0c2455cc0e64445fb7870cb659af2f6f",
+      "label": "Binance Kazakhstan: сведения при криптопереводе"
+    },
+    {
+      "url": "https://www.bybit.kz/en-KAZ/help-center/article/FAQ-Fiat-Deposit",
+      "label": "Bybit Kazakhstan: пополнение через Bank CenterCredit"
+    },
+    {
+      "url": "https://www.bybit.kz/ru-KAZ/help-center/article/How-to-submit-on-chain-withdrawal-request",
+      "label": "Bybit Kazakhstan: вывод в блокчейне"
+    },
+    {
+      "url": "https://www.bybit.kz/ru-KAZ/help-center/article/FAQ-Travel-Rule",
+      "label": "Bybit Kazakhstan: проверка личного кошелька"
+    },
+    {
+      "url": "https://ataix.kz/en/fees",
+      "label": "ATAIX Eurasia: опубликованные комиссии"
+    },
+    {
+      "url": "https://blog.ataix.kz/en/article/kriptokarta-ataix-eurasia-kak-platit-kriptovalyutoi-v-povsednevnoi-zhizni",
+      "label": "ATAIX Eurasia: текущее состояние функций"
+    },
+    {
+      "url": "https://www.anchorx.org.kz/",
+      "label": "AnchorX: ограничение по типу клиента"
+    },
+    {
+      "url": "https://fbroker.kz/products/operacii-s-cifrovymi-aktivami",
+      "label": "Freedom Finance Global: операции с цифровыми активами"
+    },
+    {
+      "url": "https://deltada.kz/terms_and_conditions",
+      "label": "Delta DA: условия обслуживания"
+    },
+    {
+      "url": "https://napp.uz/ru/pages/erlsp",
+      "label": "NAPP: актуальный реестр лицензий Asterium и COINPAY"
+    },
+    {
+      "url": "https://wallet.asterium.uz/ru-RU",
+      "label": "Asterium: пополнение UZS, пары и USDT в сети TRON"
+    },
+    {
+      "url": "https://wallet.asterium.uz/ru-RU",
+      "label": "Asterium: сеть TRON и операции кошелька"
+    },
+    {
+      "url": "https://napp.uz/ru/news/istiqbolli-loyihalar-milliy-agentligi-va-binance-kelishuv",
+      "label": "NAPP: Binance и COINPAY"
+    },
+    {
+      "url": "https://www.cbr.ru/explan/cryptocurrency/",
+      "label": "Банк России: FAQ о P2P и личном некастодиальном кошельке (обновлено 12.10.2026)"
+    },
+    {
+      "url": "https://www.cbr.ru/admissionfinmarket/register/",
+      "label": "Банк России: реестр обмена цифровых валют (обновлён 17.10.2026)"
+    },
+    {
+      "url": "https://www.cbr.ru/rbr/rbr_fr/doc?id=51682",
+      "label": "Банк России: запись ООО «Развитие финансовых технологий» от 16.10.2026"
+    },
+    {
+      "url": "https://www.r-fintech.ru/",
+      "label": "РФТ: международные платежи для бизнеса"
+    },
+    {
+      "url": "https://www.binance.com/en-KZ/support/announcement/detail/51c9c56c7d3141fdac18cb9a152defc8",
+      "label": "Binance Kazakhstan: спотовая пара USDT/KZT"
+    },
+    {
+      "url": "https://www.binance.com/ru-KZ/support/faq/detail/115003670492",
+      "label": "Binance Kazakhstan: вывод криптовалюты на внешний адрес"
+    },
+    {
+      "url": "https://www.bybit.kz/en-KAZ/help-center/article/FAQ-Fiat-Deposit",
+      "label": "Bybit Kazakhstan: фиатный депозит KZT и поддерживаемые банки"
+    },
+    {
+      "url": "https://www.bybit.kz/ru-KAZ/learn/content/stepbystep-bybit-kazakhstan-bank-centercredit-fiat-guidance",
+      "label": "Bybit Kazakhstan: покупка USDT через банковский канал"
+    },
+    {
+      "url": "https://www.bybit.kz/ru-KAZ/trade/spot/USDT/KZT",
+      "label": "Bybit Kazakhstan: пара USDT/KZT"
+    },
+    {
+      "url": "https://asterium.uz/en/documents/public-offer",
+      "label": "Asterium: публичная оферта от 21.09.2026, собственные счета и внешний вывод"
+    },
+    {
+      "url": "https://ausu.kz/en/",
+      "label": "AUSU: лицензия, способы оплаты, минимум, касса и адрес кошелька"
+    },
+    {
+      "url": "https://nationalbank.kz/ru/page/unsecured-asset-exchange-operators",
+      "label": "Национальный банк Казахстана: реестр операторов обмена цифровых активов"
+    },
+    {
+      "url": "https://citypay.uz/en",
+      "label": "CityPay Uzbekistan: покупка в UZS через Paynet, Uzcard, HUMO и внешние переводы"
+    },
+    {
+      "url": "https://intercom.help/citypayuz/en/articles/16540343-public-offer",
+      "label": "CityPay: публичная оферта для физических лиц, 20.08.2026"
+    },
+    {
+      "url": "https://voluto.uz/en",
+      "label": "Voluto: наличная покупка USDT TRC-20 в офисе Ташкента"
+    },
+    {
+      "url": "https://www.nbs.rs/en/ciljevi-i-funkcije/nadzor-nad-finansijskim-institucijama/digital-imo/reg_di/reg_di_mcm/",
+      "label": "NBS: MCM 965 in the register of virtual currency service providers"
+    },
+    {
+      "url": "https://ecd.rs/en/registration-of-ecd-account-private-entity/verification-for-foreign-nationals-how-to-create-an-ecd-platform-user-account/",
+      "label": "ECD: verification of foreign nationals"
+    },
+    {
+      "url": "https://ecd.rs/en/using-your-ecd-wallet/",
+      "label": "ECD Wallet: RSD deposit, purchase and withdrawal"
+    },
+    {
+      "url": "https://ecd.rs/en/faqs/what-are-the-costs-limits-related-to-transactions-through-ecd-wallet/",
+      "label": "ECD: Wallet fees and limits, English"
+    },
+    {
+      "url": "https://ecd.rs/faq/",
+      "label": "ECD: Wallet fees and limits, Serbian"
+    },
+    {
+      "url": "https://ecd.rs/crypto-atm/",
+      "label": "ECD: crypto ATM locations and fees"
+    },
+    {
+      "url": "https://ecd.rs/servisne-informacije/tether-usdt-je-dostupan-za-kupovinu-na-ecd-kriptomatima/",
+      "label": "ECD: USDT on crypto ATMs, ERC-20"
+    },
+    {
+      "url": "https://ecd.rs/en/faqs/do-i-have-to-verify-my-account-to-use-the-crypto-atms/",
+      "label": "ECD: account verification for crypto ATMs"
+    },
+    {
+      "url": "https://ecd.rs/en/adding-trusted-addresses/",
+      "label": "ECD: trusted external addresses"
+    },
+    {
+      "url": "https://ecd.rs/wp-content/uploads/2025/07/2025.07.29.-ECD-Tarifnik-ENG.pdf",
+      "label": "ECD: MCM 965 tariff, 29 July 2025"
+    },
+    {
+      "url": "https://help.whitebit.com/hc/ru/articles/19401002086045-%D0%9A%D0%B0%D0%BA-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D1%8F%D1%82%D1%8C-UAH-%D0%BD%D0%B0-USDT-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-P2P-Express-%D0%BD%D0%B0-WhiteBIT",
+      "label": "WhiteBIT: P2P Express UAH → USDT"
+    },
+    {
+      "url": "https://whitebit.com/terms",
+      "label": "WhiteBIT: user agreement"
+    },
+    {
+      "url": "https://nalog.gov.by/news/34096/",
+      "label": "Belarus MNS: token operations (02.02.2026)"
+    },
+    {
+      "url": "https://nalog.gov.by/individuals/income_taxation/transactions_with_digital_signs/",
+      "label": "Belarus MNS: rules for individuals"
+    },
+    {
+      "url": "https://www.park.by/en/residents/erpbel/",
+      "label": "Belarus HTP: ERPBEL resident listing"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02006R0765-20260724",
+      "label": "EUR-Lex: consolidated Regulation 765/2006 (24.07.2026)"
+    },
+    {
+      "url": "https://www.bybit.com/uk-UA/p2p/buy/USDT/UAH?actionType=1&fiat=UAH",
+      "label": "Bybit: текущие объявления USDT/UAH"
+    },
+    {
+      "url": "https://www.bybit.com/ru-RU/help-center/article/P2P-on-Bybit-FAQ",
+      "label": "Bybit: FAQ о P2P и KYC"
+    },
+    {
+      "url": "https://www.bybit.com/ru-RU/help-center/article/How-to-Buy-Crypto-with-P2P-Express?category=d6e8f78058dabcfd5c",
+      "label": "Bybit: P2P Express и платёж со своего имени"
+    },
+    {
+      "url": "https://www.bybit.com/common-static/compliance/legal/BYBIT/3fbe62695299e8dbb207575b9898047d.pdf",
+      "label": "Bybit: условия P2P"
+    },
+    {
+      "url": "https://www.bybit.com/ru-RU/help-center/article/Service-Restricted-Countries",
+      "label": "Bybit: ограничения по странам"
+    },
+    {
+      "url": "https://www.bybit.com/ru-RU/help-center/article/How-to-submit-on-chain-withdrawal-request",
+      "label": "Bybit: on-chain-вывод"
+    },
+    {
+      "url": "https://bank.gov.ua/admin_uploads/law/Resolution_24022022_18_kp.pdf",
+      "label": "НБУ: Постановление № 18"
+    },
+    {
+      "url": "https://park.by/residents/dzengi/?sphrase_id=230054",
+      "label": "ПВТ: реестр Dzengi"
+    },
+    {
+      "url": "https://dzengi.com/ru/kak-kupit-usdt-v-belarusi-legalnye-sposoby-i-poshagovaya-instrukciya",
+      "label": "Dzengi: покупка USDT в Беларуси"
+    },
+    {
+      "url": "https://help.dzengi.com/hc/en-us/articles/7634805817105-What-are-the-withdrawal-options",
+      "label": "Dzengi: личный внешний вывод"
+    },
+    {
+      "url": "https://park.by/residents/ooo-piksel-internet/?sphrase_id=230055",
+      "label": "ПВТ: реестр FREE2EX / ЗАО «Пиксел Интернет»"
+    },
+    {
+      "url": "https://help.free2ex.com/portal/en/kb/articles/mobile-deposit-en",
+      "label": "FREE2EX: BYN-пополнение"
+    },
+    {
+      "url": "https://www.free2ex.com/en/fees/deposits-and-withdrawals/",
+      "label": "FREE2EX: тарифы"
+    },
+    {
+      "url": "https://help.free2ex.com/portal/ru/kb/articles/crypto-withdrawal-ru",
+      "label": "FREE2EX: вывод на личный кошелёк"
+    },
+    {
+      "url": "https://nalog.gov.by/clarifications/clarifications/27824/",
+      "label": "МНС Беларуси: содействие операциям"
+    },
+    {
+      "url": "https://nalog.gov.by/clarifications/clarifications/29122/",
+      "label": "МНС Беларуси: дополнительное разъяснение о самостоятельных операциях и содействии"
+    },
+    {
+      "url": "https://dantepay.kg/",
+      "label": "DantePay: условия обмена и лицензия"
+    },
+    {
+      "url": "https://economist.kg/biznes/2026/10/02/kontrol-postavshchikov-virtualnykh-aktivov/",
+      "label": "Economist.kg: контроль поставщиков виртуальных активов (02.10.2026)"
+    },
+    {
+      "url": "https://napp.uz/ru/pages/erlsp",
+      "label": "НАПП: реестр лицензий"
+    }
+  ]
+}

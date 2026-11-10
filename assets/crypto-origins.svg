@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Как появлялись части криптомира</title>
+<desc id="desc">Пять шагов по порядку: 2008 год, описание Bitcoin; 2009 год, заработала сеть Bitcoin; затем биржи для обмена обычных денег на криптовалюту; 2015 год, Ethereum и токены; затем стейблкоины USDT и USDC, которые стоят около доллара.</desc>
+<rect width="1200" height="675" rx="28" fill="#f7f5ef"/>
+<text x="60" y="96" font-family="Literata, Georgia, serif" font-size="50" font-weight="700" fill="#1e2a2f">Как появлялись части криптомира</text>
+<path d="M140 360H1060" stroke="#d6cdbf" stroke-width="10" stroke-linecap="round"/>
+<g fill="#466b67" stroke="#f7f5ef" stroke-width="8">
+<circle cx="140" cy="360" r="26"/><circle cx="370" cy="360" r="26"/><circle cx="600" cy="360" r="26"/><circle cx="830" cy="360" r="26"/><circle cx="1060" cy="360" r="26" fill="#a84f2a"/>
+</g>
+<g font-family="Commissioner, Arial, sans-serif" font-weight="700" fill="#1e2a2f" text-anchor="middle">
+<text x="140" y="290" font-size="46">2008</text>
+<text x="370" y="290" font-size="46">2009</text>
+<text x="600" y="290" font-size="46">Потом</text>
+<text x="830" y="290" font-size="46">2015</text>
+<text x="1060" y="290" font-size="46" fill="#a84f2a">Потом</text>
+</g>
+<g font-family="Commissioner, Arial, sans-serif" font-size="29" font-weight="600" fill="#1e2a2f" text-anchor="middle">
+<text x="140" y="440">Описание</text><text x="140" y="480">Bitcoin</text>
+<text x="370" y="440">Заработала</text><text x="370" y="480">сеть Bitcoin</text>
+<text x="600" y="440">Биржи:</text><text x="600" y="480">обмен денег</text><text x="600" y="520">на крипту</text>
+<text x="830" y="440">Ethereum</text><text x="830" y="480">и токены</text>
+<text x="1060" y="440">Стейблкоины:</text><text x="1060" y="480">USDT и USDC</text><text x="1060" y="520">≈ 1 доллар</text>
+</g>
+</svg>

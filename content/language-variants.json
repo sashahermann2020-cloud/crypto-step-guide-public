@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "last_reviewed_on": "2026-11-10",
+  "languages": {
+    "es": {
+      "label": "Español",
+      "locale": "es_ES",
+      "ui": {
+        "skip": "Ir al contenido",
+        "nav_label": "Navegación principal",
+        "home": "Guía en español",
+        "russian": "Русская версия",
+        "back": "← Todos los países",
+        "eyebrow": "Comprar USDT · {country} · revisado el {date}",
+        "h_short": "Resumen",
+        "h_ways": "Formas de comprar",
+        "h_law": "Marco legal",
+        "h_tax": "Impuestos",
+        "h_next": "Qué sigue",
+        "ways_count": "Rutas descritas en esta guía: {n}. Todas son condicionales: hay que comprobar las condiciones antes de pagar.",
+        "ways_count_one": "Rutas descritas en esta guía: 1. Es condicional: hay que comprobar las condiciones antes de pagar.",
+        "badge": "Condicional: comprobar antes de pagar",
+        "service": "Servicio",
+        "currency": "Moneda",
+        "steps": "Paso a paso",
+        "checks": "Qué comprobar antes de pagar",
+        "scope": "Qué se verificó y qué no",
+        "sources": "Fuentes oficiales y de apoyo",
+        "law_note": "Son enlaces de referencia a leyes y registros, no asesoramiento jurídico.",
+        "other": "Otros países",
+        "not_tested": "Ninguna ruta se probó con una operación real.",
+        "about_h": "Sobre esta guía",
+        "about": "Crypto Step Guide es una guía informativa. No abre cuentas, no recibe dinero ni criptoactivos, no ejecuta operaciones y no da asesoramiento financiero, jurídico ni fiscal. Hoy no hay enlaces de afiliados en el sitio. Los servicios citados son empresas independientes: confirma siempre en su sitio oficial si atienden tu país y qué documentos aceptan.",
+        "stablecoin": "El USDT es una stablecoin: su valor está ligado al dólar, pero el precio puede variar y los envíos por blockchain no se pueden revertir. Revisa la red y la dirección antes de enviar.",
+        "footer": "Crypto Step Guide · guía informativa para principiantes",
+        "footer_ru": "Versión en ruso",
+        "hub_countries": "Países",
+        "hub_open": "Ver la ruta →",
+        "updated": "Revisado",
+        "org_description": "Proyecto informativo y educativo: guías claras para comprar, guardar y transferir criptomonedas para principiantes. El sitio es gratuito, no recibe pagos y no presta servicios financieros."
+      },
+      "hub": {
+        "h1": "Cómo comprar USDT: guía por países en español",
+        "intro": "Rutas para comprar USDT en Argentina, Venezuela y España, cada una con su fuente oficial, la situación regulatoria del servicio y lo que no se pudo verificar. Es una guía informativa: no abre cuentas ni opera por ti.",
+        "note": "En España las plataformas reguladas por MiCA no ofrecen USDT; la ruta descrita usa USDC."
+      },
+      "countries": [
+        "argentina",
+        "venezuela",
+        "espana"
+      ]
+    },
+    "pt": {
+      "label": "Português",
+      "locale": "pt_BR",
+      "ui": {
+        "skip": "Ir para o conteúdo",
+        "nav_label": "Navegação principal",
+        "home": "Guia em português",
+        "russian": "Русская версия",
+        "back": "← Todos os países",
+        "eyebrow": "Comprar USDT · {country} · revisado em {date}",
+        "h_short": "Resumo",
+        "h_ways": "Formas de comprar",
+        "h_law": "Base legal",
+        "h_tax": "Impostos",
+        "h_next": "O que vem depois",
+        "ways_count": "Rotas descritas neste guia: {n}. Todas são condicionais: confira as condições antes de pagar.",
+        "ways_count_one": "Rotas descritas neste guia: 1. Ela é condicional: confira as condições antes de pagar.",
+        "badge": "Condicional: conferir antes de pagar",
+        "service": "Serviço",
+        "currency": "Moeda",
+        "steps": "Passo a passo",
+        "checks": "O que conferir antes de pagar",
+        "scope": "O que foi verificado e o que não foi",
+        "sources": "Fontes oficiais e de apoio",
+        "law_note": "São links de referência a leis e registros, não aconselhamento jurídico.",
+        "other": "Outros países",
+        "not_tested": "Nenhuma rota foi testada com uma operação real.",
+        "about_h": "Sobre este guia",
+        "about": "O Crypto Step Guide é um guia informativo. Não abre contas, não recebe dinheiro nem criptoativos, não executa operações e não dá aconselhamento financeiro, jurídico ou tributário. Hoje não há links de afiliados no site. Os serviços citados são empresas independentes: confirme sempre no site oficial se atendem o seu país e quais documentos aceitam.",
+        "stablecoin": "O USDT é uma stablecoin: seu valor é atrelado ao dólar, mas o preço pode variar e envios por blockchain não podem ser revertidos. Confira a rede e o endereço antes de enviar.",
+        "footer": "Crypto Step Guide · guia informativo para iniciantes",
+        "footer_ru": "Versão em russo",
+        "hub_countries": "Países",
+        "hub_open": "Ver a rota →",
+        "updated": "Revisado",
+        "org_description": "Projeto informativo e educacional: guias claras para comprar, guardar e transferir criptomoedas para iniciantes. O site é gratuito, não recebe pagamentos e não presta serviços financeiros."
+      },
+      "hub": {
+        "h1": "Como comprar USDT: guia por país em português",
+        "intro": "Rotas para comprar USDT no Brasil, com a fonte oficial de cada uma, a situação regulatória do serviço e o que não foi possível verificar. É um guia informativo: não abre contas nem opera por você.",
+        "note": "No Brasil, as empresas citadas ainda aguardam decisão do Banco Central sobre o pedido de autorização."
+      },
+      "countries": [
+        "brasil"
+      ]
+    },
+    "en": {
+      "label": "English",
+      "locale": "en_GB",
+      "ui": {
+        "skip": "Skip to content",
+        "nav_label": "Main navigation",
+        "home": "Guide in English",
+        "russian": "Русская версия",
+        "back": "← All countries",
+        "eyebrow": "Buying USDT · {country} · reviewed {date}",
+        "h_short": "Summary",
+        "h_ways": "Ways to buy",
+        "h_law": "Legal basis",
+        "h_tax": "Taxes",
+        "h_next": "What next",
+        "ways_count": "Routes described in this guide: {n}. All are conditional: check the conditions before you pay.",
+        "ways_count_one": "Routes described in this guide: 1. It is conditional: check the conditions before you pay.",
+        "badge": "Conditional: check before paying",
+        "service": "Service",
+        "currency": "Currency",
+        "steps": "Step by step",
+        "checks": "What to check before paying",
+        "scope": "What was and was not verified",
+        "sources": "Official and supporting sources",
+        "law_note": "These are reference links to laws and registers, not legal advice.",
+        "other": "Other countries",
+        "not_tested": "No route has been tested with a real transaction.",
+        "about_h": "About this guide",
+        "about": "Crypto Step Guide is an information guide. It does not open accounts, take money or crypto assets, carry out transactions, or give financial, legal or tax advice. There are no affiliate links on the site today. The services named are independent companies: always confirm on their official site whether they serve your country and which documents they accept.",
+        "stablecoin": "USDT is a stablecoin: its value is tied to the US dollar, but the price can move and blockchain transfers cannot be reversed. Check the network and the address before you send.",
+        "footer": "Crypto Step Guide · information guide for beginners",
+        "footer_ru": "Russian version",
+        "hub_countries": "Countries",
+        "hub_open": "See the route →",
+        "updated": "Reviewed",
+        "org_description": "Information and education project: clear guides to buying, storing and transferring cryptocurrency for beginners. The site is free, takes no payments and provides no financial services."
+      },
+      "hub": {
+        "h1": "How to buy USDT: country guides in English",
+        "intro": "Routes for buying USDT in India and Nigeria, each with its official source, the regulatory status of the service and what could not be verified. This is an information guide: it does not open accounts or trade for you.",
+        "note": "In both countries the exchange's regulatory status needs a careful read: see each country page."
+      },
+      "countries": [
+        "india",
+        "nigeria"
+      ]
+    }
+  },
+  "countries": {
+    "argentina": {
+      "language": "es",
+      "name": "Argentina",
+      "in_title": "Argentina",
+      "short": "Tres rutas con pesos: Lemon, Ripio y Belo.",
+      "intro": "En Argentina, los proveedores de servicios de activos virtuales (PSAV) se inscriben en un registro de la CNV. La inscripción no es una licencia ni aprueba los activos. Los bancos tienen prohibido operar con criptoactivos (Comunicación A 7506 del BCRA). La Resolución General CNV 1172/2026 fue firmada el 14.10.2026 y, según estudios jurídicos, entra en vigor el 16.10.2026.",
+      "alerts": [
+        "«Inscripto» no significa «autorizado»: la CNV regula a los proveedores, no a los activos, y el registro no es una licencia.",
+        "Los pesos de tu cuenta los administran proveedores de cuentas de pago que no son entidades financieras (Digifin S.A. en Lemon, Digipayments S.A.U. en Ripio): no son depósitos bancarios.",
+        "El USDT no es moneda de curso legal. Si comprás con pesos para ahorrar, revisá además las restricciones cambiarias del BCRA: no verificamos si alcanzan a esta operación."
+      ],
+      "law": [
+        {
+          "text": "Ley 27.739: la CNV como regulador de los PSAV",
+          "url": "https://www.argentina.gob.ar/node/459348"
+        },
+        {
+          "text": "CNV: registro de proveedores de servicios de activos virtuales (PSAV)",
+          "url": "https://www.cnv.gov.ar/SitioWeb/ProveedoresServiciosActivosVirtuales/RegistrosPSAV"
+        },
+        {
+          "text": "Resolución General CNV 1172/2026 (copia del texto)",
+          "url": "https://www.colegio-escribanos.org.ar/noticias/2026_10_15_CNV-Res-Gral-1172-26.pdf"
+        },
+        {
+          "text": "Comunicación A 7506 del BCRA: los bancos no pueden operar con criptoactivos (análisis de Marval)",
+          "url": "https://www.marval.com/Publicacion/los-bancos-no-podran-operar-ni-ofrecer-a-sus-clientes-operar-con-criptoactivos-14220"
+        }
+      ],
+      "law_text": [
+        "La resolución 1172/2026 exige estar inscripto en el registro de PSAV antes de operar (arts. 1 y 3), obliga a mantener el dinero de los clientes separado del propio (art. 19), prohíbe usar los activos de los clientes (art. 20), exige advertencias de riesgo (art. 37) y un aviso de 30 días antes de dejar de operar (art. 44). La CNV no regula las billeteras en las que vos tenés las claves (art. 2)."
+      ],
+      "tax": [
+        "Comprar y mantener USDT no genera impuesto a las ganancias; se tributa al vender con ganancia. Según la prensa especializada (iProfesional, iProUP) la tasa para personas humanas es del 15 %; otra fuente menciona un 5 % y no verificamos cuál se aplica al USDT.",
+        "La RG ARCA 5804/2025 obliga a las plataformas locales a informar saldos y movimientos de sus clientes; para personas humanas, según Rankia, el umbral es de 50 millones de pesos por mes desde mayo 2026. La declaración corresponde a vos.",
+        "No revisamos los textos oficiales de ARCA ni el impuesto sobre bienes personales: los datos de esta sección vienen de análisis publicados por estudios y medios, no de las normas."
+      ],
+      "tax_links": [
+        {
+          "text": "iProfesional: qué impuestos se pagan por invertir en criptomonedas",
+          "url": "https://www.iprofesional.com/finanzas/400093-que-impuestos-debo-pagar-por-invertir-en-criptomonedas-en-argentina"
+        },
+        {
+          "text": "Marval: obligaciones de información de ARCA para plataformas (RG 5804/2025)",
+          "url": "https://www.marval.com/Publicacion/obligaciones-informativas-de-arca-para-plataformas-y-psp-17433?lang=es"
+        }
+      ],
+      "next": "Elegí la ruta que coincida con tu documento y tu banco, abrí el sitio oficial del servicio y verificá allí la cotización y las comisiones antes de depositar."
+    },
+    "venezuela": {
+      "language": "es",
+      "name": "Venezuela",
+      "in_title": "Venezuela",
+      "short": "Una ruta con bolívares: Crixto por Pago Móvil.",
+      "intro": "En Venezuela, las casas de intercambio de criptoactivos necesitan licencia de SUNACRIP. Esta guía describe una sola ruta, Crixto Venezuela, C.A., que publica en su sitio la licencia N.º CI-SUNA-2026-001 (emitida el 02/01/2026, vigente hasta el 31/12/2026). El sitio de SUNACRIP no estuvo disponible durante la revisión, así que no pudimos confirmar la licencia en la lista oficial.",
+      "alerts": [
+        "La licencia la muestra la propia empresa. Después del 31/12/2026 hace falta confirmar que fue renovada.",
+        "Esta guía no cubre Binance P2P ni otras plataformas globales: su situación legal en Venezuela es incierta.",
+        "No se revisaron los impuestos en Venezuela ni el estado de las licencias generales de OFAC."
+      ],
+      "law": [
+        {
+          "text": "Crixto: escaneo de la licencia de SUNACRIP",
+          "url": "https://www.crixto.com/wp-content/uploads/2026/01/Sunacrip-Crixto-Venezuela.pdf"
+        },
+        {
+          "text": "CriptoNoticias: Crixto renovó su licencia en Venezuela",
+          "url": "https://www.criptonoticias.com/mercados/crixto-renovacion-operaciones-2026-venezuela/"
+        }
+      ],
+      "law_text": [
+        "La licencia publicada cubre siete actividades: cambio de fiat a criptoactivos y de criptoactivos a fiat, intercambio entre usuarios (P2P), custodia, pasarela de pagos, servicios OTC y agente de pago. Está firmada por la Superintendencia Nacional de Criptoactivos y Actividades Conexas."
+      ],
+      "tax": [],
+      "tax_links": [],
+      "next": "Confirma en el sitio de Crixto que la licencia sigue vigente y revisa en la app las comisiones antes de confirmar la conversión."
+    },
+    "espana": {
+      "language": "es",
+      "name": "España",
+      "in_title": "España",
+      "short": "Una ruta con euros: Bit2Me, comprando USDC.",
+      "intro": "En España, los proveedores de servicios de criptoactivos necesitan autorización según el Reglamento MiCA, con supervisión de la CNMV; desde el 1.7.2026 solo pueden operar los autorizados. USDT no está prohibido, pero las plataformas con licencia MiCA no pueden ofrecerlo porque Tether no figura entre los emisores de EMT autorizados. La alternativa regulada es USDC.",
+      "alerts": [
+        "Si una plataforma española te ofrece USDT, pregúntate cómo es posible: según el registro de ESMA, Tether no es un emisor de EMT autorizado.",
+        "La autorización de Bit2Me como CASP se comprobó en una copia del registro de ESMA publicada por un agregador; el archivo oficial de ESMA no se pudo leer completo."
+      ],
+      "law": [
+        {
+          "text": "CNMV: quién puede operar con criptoactivos desde el 1.7.2026",
+          "url": "https://www.cnmv.es/Portal/mica/Regulacion-Criptoactivos"
+        },
+        {
+          "text": "ESMA: registro de proveedores de servicios de criptoactivos (CASP)",
+          "url": "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv"
+        },
+        {
+          "text": "ESMA: registro de emisores de tokens de dinero electrónico (EMT)",
+          "url": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv"
+        },
+        {
+          "text": "ESMA: opinión del 8.10.2026 sobre servicios con stablecoins no autorizadas",
+          "url": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised"
+        }
+      ],
+      "law_text": [
+        "Qué sí permite la norma: mantener y transferir USDT que ya tienes. Lo que las plataformas MiCA no pueden hacer es ofrecértelo para comprar o negociar."
+      ],
+      "tax": [
+        "Las ganancias por la venta tributan en España. No revisamos las fuentes oficiales de la Agencia Tributaria, así que esta guía no da cifras fiscales."
+      ],
+      "tax_links": [],
+      "next": "Abre el sitio oficial de Bit2Me, comprueba la pantalla final de precio, spread y comisiones, y empieza con un importe pequeño."
+    },
+    "brasil": {
+      "language": "pt",
+      "name": "Brasil",
+      "in_title": "Brasil",
+      "short": "Duas rotas com Pix: Foxbit e Mercado Bitcoin.",
+      "intro": "No Brasil, o Banco Central (BCB) regula as prestadoras de serviços de ativos virtuais. Foxbit e Mercado Bitcoin aparecem na tabela de pedidos de autorização do BCB com a situação «Em exame» (tabela atualizada em 06/11/2026). O próprio BCB informa que constar na tabela não significa autorização. A Mercado Bitcoin informou ter pedido autorização em 27/10/2026 e a imprensa cita a Foxbit entre as solicitantes; a decisão do BCB ainda não saiu.",
+      "alerts": [
+        "«Em exame» não é «autorizada». As empresas podem continuar operando enquanto o pedido é analisado, segundo a imprensa especializada, mas o resultado ainda não é conhecido.",
+        "Desde 06/11/2026 bancos e instituições de pagamento não podem operar com prestadoras que não estejam autorizadas (Resolução BCB 589, que alterou o art. 91 da Resolução BCB 520). A redação exata do artigo não foi conferida no texto original; consulte a norma em normativos.bcb.gov.br.",
+        "O regulador exige que as empresas informem seu status regulatório no site e no app: confira esse aviso antes de se cadastrar."
+      ],
+      "law": [
+        {
+          "text": "Banco Central: autorizaBC, tabela de pedidos de autorização",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/autorizabc"
+        },
+        {
+          "text": "Capital Aberto: o prazo do Banco Central aperta o cerco sobre ativos virtuais",
+          "url": "https://capitalaberto.com.br/regulacao/2026/10/prazo-do-bc-aperta-cerco-sobre-ativos-virtuais"
+        }
+      ],
+      "law_text": [
+        "A tabela do BCB tinha 120 linhas na leitura de 10/11/2026 (119 «Em exame» e 1 «Indeferido»). A imprensa citou 143 pedidos; a diferença não foi explicada."
+      ],
+      "tax": [
+        "Ganhos com criptoativos têm regras na Receita Federal. A fonte oficial não foi revisada, por isso este guia não traz números de tributação."
+      ],
+      "tax_links": [],
+      "next": "Abra o site oficial da empresa, confira o aviso de situação regulatória e as taxas na tela de confirmação e comece com um valor pequeno."
+    },
+    "india": {
+      "language": "en",
+      "name": "India",
+      "in_title": "India",
+      "short": "One route with INR: CoinDCX, for Indian citizens and residents.",
+      "intro": "India does not ban crypto assets, but it taxes them heavily and requires virtual digital asset service providers to register with the Financial Intelligence Unit (FIU-IND). CoinDCX is operated for India by Neblio Technologies Private Limited, which a Lok Sabha answer of 4 December 2023 lists as FIU-IND registered. FIU registration is an anti-money-laundering requirement; it is not an approval of the service or of any token.",
+      "alerts": [
+        "CoinDCX's Terms (effective 22 September 2026) limit clients to Indian citizens and residents of India, aged 18 or over. If that is not you, this route is not for you.",
+        "Fiat can be paid only from your own linked bank account. Google Pay and other UPI apps cannot be used for the IMPS/NEFT/RTGS transfer option.",
+        "Tax is heavy: 30% on gains and 1% TDS on sale. Read the Taxes section before you buy."
+      ],
+      "law": [
+        {
+          "text": "Lok Sabha, question no. 112: entities registered with FIU-IND (annexure)",
+          "url": "https://eparlib.sansad.in/bitstream/123456789/2972630/1/AU112.pdf"
+        },
+        {
+          "text": "CoinDCX: Terms of Use (PDF)",
+          "url": "https://coindcx.s3.amazonaws.com/static/documents/terms-of-use.pdf"
+        }
+      ],
+      "law_text": [
+        "CoinDCX's Terms name Neblio Technologies Private Limited (CIN U74999MH2018PTC304533) as the operator for India. The help-centre footer shows a different group company, Primestack Pte. Ltd., as the brand owner. CoinDCX's own documents quote FIU-IND registration number VA00030982; we could not read the FIU-IND list page itself."
+      ],
+      "tax": [
+        "From 1 April 2026 the Income-tax Act 2025 applies. Income from the transfer of a virtual digital asset is taxed at 30% (section 194(1)); only the cost of acquisition can be deducted and losses cannot be set off.",
+        "1% TDS is deducted from the payment for a transfer of a virtual digital asset (section 393(1)); the exchange reports it on Form 142, which replaces the earlier Form 26QF. No TDS is deducted if the year's total consideration is up to ₹50,000 for specified persons or ₹10,000 for others.",
+        "Transfers up to 31 March 2026 fall under the earlier sections 115BBH and 194S; official virtual-digital-asset pages and CoinDCX's Terms still cite them. This is a summary of the statute text, not tax advice."
+      ],
+      "tax_links": [
+        {
+          "text": "Income-tax Act 2025, section 194",
+          "url": "https://wm.incometaxindia.gov.in/w/section-194-76"
+        },
+        {
+          "text": "Income-tax Act 2025, section 393",
+          "url": "https://wm.incometaxindia.gov.in/w/section-393-5"
+        }
+      ],
+      "next": "Open CoinDCX's official site or app, check the fee on the order screen, and start with a small amount."
+    },
+    "nigeria": {
+      "language": "en",
+      "name": "Nigeria",
+      "in_title": "Nigeria",
+      "short": "One route with naira: Quidax, which holds an approval in principle.",
+      "intro": "Nigeria's Securities and Exchange Commission (SEC) runs the Accelerated Regulatory Incubation Programme (ARIP) for digital-asset firms. Quidax Technologies Limited is listed as a participant. That is an approval in principle, not a final licence: the SEC has said no ARIP operator has final registration yet (reported on 29 October 2026) and that participants may not run promotional activity.",
+      "alerts": [
+        "Quidax's own site describes a “provisional” exchange licence. The regulator's description is approval in principle only.",
+        "New 1.5% stamp duty: tax guidelines issued by the Nigeria Revenue Service on 31 July 2026 set it on naira-to-token purchases, paid by the buyer in tokens. No start date is stated and whether Quidax already collects it is not verified.",
+        "Quidax closed P2P on 23 January 2026; instructions that mention Quidax P2P are out of date."
+      ],
+      "law": [
+        {
+          "text": "Nairametrics, 29 Oct 2026: SEC says no digital asset operator has final registration under ARIP",
+          "url": "https://nairametrics.com/2026/10/29/sec-says-no-digital-asset-operator-has-secured-final-registration-under-arip/"
+        },
+        {
+          "text": "Nairametrics, 15 Aug 2026: SEC admits more firms to ARIP; approval in principle is not a final licence",
+          "url": "https://nairametrics.com/2026/08/15/sec-admits-3-more-crypto-firms-taking-arip-participants-to-14"
+        },
+        {
+          "text": "Daily Trust, 23 Aug 2026: Quidax's status after ending P2P",
+          "url": "https://dailytrust.com/?p=1944759"
+        }
+      ],
+      "law_text": [
+        "We confirmed on the SEC's own site that Quidax Technologies Limited is an ARIP participant. The Investments and Securities Act 2025 is the law behind digital-asset regulation; the tax guidelines do not mention SEC licensing at all."
+      ],
+      "tax": [
+        "The Nigeria Revenue Service's Guidelines on the Taxation of Virtual Assets (Information Circular No. 2026/21, 31 July 2026) apply the Nigeria Tax Act 2025 to crypto. Gains on selling are taxed at the progressive personal rates and are self-assessed in your annual return; the guidelines state no threshold.",
+        "Stablecoin gains are measured against the pegged currency and are normally nil or small. Holding a token is not a taxable event.",
+        "Stamp duty of 1.5% applies to fiat-to-token and token-to-fiat transfers (item 33 of the Ninth Schedule). The buyer bears it; the platform deducts it from the tokens credited, and the naira price is not reduced. There is no exemption for stablecoins or small amounts in the text.",
+        "Anyone engaged in virtual-asset activity must register for tax and hold a Tax ID; the penalty for not registering is ₦50,000 for the first month and ₦25,000 for each later month. The circular gives no effective date, and PwC points to open legal questions about it. This is a summary, not tax advice."
+      ],
+      "tax_links": [
+        {
+          "text": "NRS: Guidelines on the Taxation of Virtual Assets",
+          "url": "https://www.nrs.gov.ng/uploads/Guidelines_on_taxation_of_Virtual_Assets_31_7_26_7cd2ef8dab.pdf"
+        },
+        {
+          "text": "PwC Nigeria: Taxing the intangible (August 2026)",
+          "url": "https://www.pwc.com/ng/en/assets/pdf/tax-alert-taxing-the-intangible.pdf"
+        },
+        {
+          "text": "KPMG Nigeria: Taxing the Digital Frontier (October 2026)",
+          "url": "https://assets.kpmg.com/content/dam/kpmgsites/ng/pdf/2026/10/Taxing%20the%20Digital%20Frontier.pdf"
+        }
+      ],
+      "next": "Open Quidax's official site or app, check the USDT amount shown before you confirm, and start with a small amount."
+    }
+  }
+}

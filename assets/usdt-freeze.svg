@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">USDT передаются вместе с историей</title>
+<desc id="desc">Цепочка: мошенник отправляет USDT покупателю, покупатель платит ими вам за ноутбук, вы переводите USDT на биржу. Биржа видит путь денег и задерживает перевод: подтвердите источник средств.</desc>
+<rect width="1200" height="675" rx="28" fill="#f7f5ef"/>
+<text x="60" y="92" font-family="Literata, Georgia, serif" font-size="48" font-weight="700" fill="#1e2a2f">USDT передаются вместе с историей</text>
+<g font-family="Commissioner, Arial, sans-serif" font-weight="700" text-anchor="middle">
+<rect x="40" y="190" width="230" height="140" rx="20" fill="#f4e1d9" stroke="#923a35" stroke-width="4"/>
+<text x="155" y="250" font-size="34" fill="#923a35">Мошенник</text>
+<text x="155" y="295" font-size="23" fill="#5d696d" font-weight="600">чужие деньги</text>
+<rect x="340" y="190" width="230" height="140" rx="20" fill="#fffefa" stroke="#1e2a2f" stroke-width="4"/>
+<text x="455" y="250" font-size="34" fill="#1e2a2f">Покупатель</text>
+<text x="455" y="295" font-size="23" fill="#5d696d" font-weight="600">платит в USDT</text>
+<rect x="640" y="190" width="230" height="140" rx="20" fill="#fffefa" stroke="#1e2a2f" stroke-width="4"/>
+<text x="755" y="250" font-size="34" fill="#1e2a2f">Вы</text>
+<text x="755" y="295" font-size="23" fill="#5d696d" font-weight="600">продали ноутбук</text>
+<rect x="940" y="190" width="220" height="140" rx="20" fill="#466b67"/>
+<text x="1050" y="250" font-size="34" fill="#fffefa">Биржа</text>
+<text x="1050" y="295" font-size="23" fill="#fffefa" font-weight="600">проверяет путь</text>
+</g>
+<g fill="none" stroke="#1e2a2f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+<path d="M282 260H328"/><path d="M314 246l14 14-14 14"/>
+<path d="M582 260H628"/><path d="M614 246l14 14-14 14"/>
+<path d="M882 260H928"/><path d="M914 246l14 14-14 14"/>
+</g>
+<path d="M1050 340v60" stroke="#a84f2a" stroke-width="8" stroke-linecap="round"/>
+<rect x="560" y="400" width="600" height="120" rx="20" fill="#f4e1d9" stroke="#a84f2a" stroke-width="4"/>
+<text x="860" y="455" font-family="Commissioner, Arial, sans-serif" font-size="34" font-weight="700" fill="#923a35" text-anchor="middle">Перевод задержан:</text>
+<text x="860" y="497" font-family="Commissioner, Arial, sans-serif" font-size="30" font-weight="600" fill="#1e2a2f" text-anchor="middle">«Подтвердите источник средств»</text>
+<text x="60" y="600" font-family="Commissioner, Arial, sans-serif" font-size="30" font-weight="600" fill="#5d696d">Вы ничего не нарушали, но деньги пришли с плохой историей.</text>
+</svg>

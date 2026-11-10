@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://crypto-step-guide.com/schemas/sell-routes.schema.json",
+  "title": "Crypto Step Guide sell (off-ramp) routes",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "last_reviewed_on",
+    "countries"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "last_reviewed_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "countries": {
+      "type": "object",
+      "required": [
+        "kazakhstan",
+        "kyrgyzstan",
+        "uzbekistan",
+        "russia",
+        "ukraine",
+        "belarus",
+        "serbia"
+      ],
+      "additionalProperties": {
+        "$ref": "#/$defs/country"
+      }
+    }
+  },
+  "$defs": {
+    "country": {
+      "type": "object",
+      "required": [
+        "label",
+        "routes"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "legal_notice": {
+          "type": "string",
+          "minLength": 1
+        },
+        "no_route": {
+          "type": "string",
+          "minLength": 1
+        },
+        "routes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/route"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "route": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "service",
+        "service_id",
+        "status",
+        "label",
+        "method",
+        "currency",
+        "payout",
+        "steps",
+        "checks_before_sale",
+        "evidence_scope",
+        "last_source_reviewed",
+        "transaction_tested",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z]{2}-sell-[a-z0-9-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "service": {
+          "type": "string",
+          "minLength": 1
+        },
+        "service_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "ready",
+            "conditional"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "enum": [
+            "exchange",
+            "exchanger",
+            "p2p"
+          ]
+        },
+        "currency": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "payout": {
+          "type": "string",
+          "minLength": 1
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "checks_before_sale": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "evidence_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "last_source_reviewed": {
+          "type": "string",
+          "format": "date"
+        },
+        "transaction_tested": {
+          "type": "boolean"
+        },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "url"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https://"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

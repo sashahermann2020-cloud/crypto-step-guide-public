@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "pages": {
+    "start": {
+      "content_title": "Что такое криптовалюта простыми словами",
+      "description": "Что такое криптовалюта и как она работает? Объясняем Bitcoin, USDT, блокчейн, кошельки и основные риски понятным языком для начинающих.",
+      "title": "Что такое криптовалюта простыми словами"
+    },
+    "wallet": {
+      "content_title": "Какой криптокошелёк выбрать",
+      "description": "Сравнение кошельков для Bitcoin и USDT: сети, восстановление, комиссии и безопасность.",
+      "title": "Какой криптокошелёк выбрать"
+    },
+    "usdt": {
+      "content_title": "Что такое USDT",
+      "description": "Простое объяснение USDT: как токен связан с долларом, в каких сетях работает и какие риски нужно проверить до покупки или перевода.",
+      "title": "Что такое USDT"
+    },
+    "buy": {
+      "content_title": "Как купить криптовалюту: маршруты по стране и способу оплаты",
+      "description": "18 сценариев в семи странах: сравните местные способы оплаты и официальные источники. Маршруты Украины и Беларуси условные и требуют проверки аккаунта и правовых ограничений.",
+      "title": "Как купить криптовалюту: маршруты и способы"
+    },
+    "buy-usdt": {
+      "content_title": "Как купить USDT: выбор маршрута и расчёт расходов",
+      "description": "Подберите маршрут покупки USDT в семи странах, проверьте оплату, итоговую стоимость и вывод на кошелёк. Для Украины и Беларуси показаны условные маршруты с обязательными проверками.",
+      "title": "Как купить USDT по стране и способу оплаты"
+    },
+    "bitcoin": {
+      "content_title": "Нужно ли покупать целый биткоин?",
+      "description": "Нет, можно купить часть Bitcoin. Объясняем, как определить сумму расходов и выбрать способ хранения.",
+      "title": "Нужно ли покупать целый биткоин?"
+    },
+    "transfer": {
+      "content_title": "Как вывести USDT с биржи в личный кошелёк",
+      "description": "Пошаговая инструкция вывода USDT: как получить адрес, выбрать одинаковую сеть, проверить комиссию, TxID и поступление в кошелёк.",
+      "title": "Как вывести USDT с биржи в личный кошелёк"
+    },
+    "about": {
+      "content_title": "О проекте Crypto Step Guide",
+      "description": "Crypto Step Guide. Информационно-образовательный проект для начинающих. Узнайте, как мы изучаем источники, объясняем риски и проверяем сведения о сервисах.",
+      "title": "О проекте Crypto Step Guide: как мы объясняем криптовалюту"
+    },
+    "where-to-buy": {
+      "content_title": "Где купить USDT: маршруты и статус проверки по странам",
+      "description": "Сравните 18 маршрутов покупки USDT в семи странах: оплата, конечное место и официальные источники. Доступность аккаунта, банка и правовых исключений проверяйте до сделки.",
+      "title": "Где купить USDT по стране"
+    },
+    "buy-bank-transfer": {
+      "content_title": "Как купить криптовалюту банковским переводом",
+      "description": "Проверенные и исследуемые маршруты покупки без карты с указанием юридического лица, условий и причин исключения.",
+      "title": "Как купить криптовалюту банковским переводом"
+    },
+    "buy-local-p2p": {
+      "content_title": "Местная оплата и P2P для покупки USDT",
+      "description": "Условия местной оплаты и P2P для покупки USDT в России, Казахстане и Узбекистане с актуальными ограничениями и стоп-условиями.",
+      "title": "Местная оплата и P2P для покупки USDT"
+    },
+    "sell-usdt": {
+      "content_title": "Как продать USDT и вывести деньги на карту",
+      "description": "Как продать USDT и вывести деньги на свою карту или счёт: биржа, лицензированный обменник и P2P в Казахстане, России, Украине, Беларуси и Сербии – шаги, комиссии, лимиты и риски.",
+      "title": "Как продать USDT и вывести деньги на карту"
+    },
+    "legal": {
+      "content_title": "Правовая информация",
+      "description": "Роль сайта, границы информационных материалов, правила сравнения сервисов и раскрытие партнёрских отношений.",
+      "title": "Правовая информация"
+    },
+    "privacy": {
+      "content_title": "Конфиденциальность",
+      "description": "Какие данные не запрашивает сайт, как работают внешние ссылки и что изменится при подключении аналитики или партнёрского отслеживания.",
+      "title": "Конфиденциальность"
+    },
+    "service-status": {
+      "content_title": "Проверка маршрутов и сервисов для покупки USDT",
+      "description": "Операторы и официальные источники 18 маршрутов в семи странах, включая условные маршруты Украины и Беларуси и их ограничения.",
+      "title": "Проверка сервисов для покупки USDT"
+    },
+    "english-terms": {
+      "content_title": "Криптословарь: понятия, сокращения и кнопки",
+      "description": "Криптословарь простыми словами: что означают блокчейн, токен, сеть, комиссия, seed-фраза и английские надписи в криптокошельках и сервисах.",
+      "title": "Криптословарь для начинающих: термины и сокращения"
+    },
+    "articles": {
+      "content_title": "Статьи о криптовалюте простыми словами",
+      "description": "Образовательные статьи о криптовалюте простыми словами: как появились Bitcoin и USDT, как работают сети и кошельки, какие бывают ограничения и риски.",
+      "title": "Статьи о криптовалюте для начинающих | Crypto Step Guide"
+    },
+    "articles/kak-poyavilas-kriptovalyuta": {
+      "content_title": "Как появилась криптовалюта и почему Bitcoin оказался только началом",
+      "description": "Как появилась криптовалюта простыми словами: зачем создали Bitcoin, почему появились Ethereum, токены, USDT и другие стейблкоины.",
+      "title": "Как появилась криптовалюта: Bitcoin и USDT"
+    },
+    "articles/seti-usdt-trc20-erc20": {
+      "content_title": "Почему у USDT несколько сетей и как выбрать нужную",
+      "description": "Чем TRC-20 отличается от ERC-20 и BEP-20, кто берёт комиссию за перевод USDT и что будет, если выбрать не ту сеть. Простыми словами и с проверкой перед отправкой.",
+      "title": "Сети USDT: TRC-20, ERC-20 и BEP-20 – в чём разница"
+    },
+    "articles/zamorozka-usdt": {
+      "content_title": "Может ли Tether заморозить ваши USDT",
+      "description": "Почему у USDT есть блокировка, за что Tether замораживает адреса, что такое «грязные» USDT и как снизить риск, что биржа задержит ваш перевод.",
+      "title": "Может ли Tether заморозить USDT: блокировки и «грязные» USDT"
+    },
+    "": {
+      "content_title": "Криптовалюта простыми словами: покупка, кошельки и переводы",
+      "description": "Crypto Step Guide. Информационно-образовательный проект о криптовалюте. Простыми словами объясняем Bitcoin, USDT, кошельки, сети, переводы и риски.",
+      "title": "Криптовалюта для начинающих | Crypto Step Guide"
+    },
+    "buy-usdt-kazakhstan-card": {
+      "content_title": "Как купить USDT в Казахстане с банковской карты",
+      "title": "USDT в Казахстане с карты: Binance и AUSU",
+      "description": "Сравните покупку USDT с Mastercard через Binance Kazakhstan и собственной картой через AUSU: требования, комиссия, сеть и путь до личного кошелька."
+    },
+    "buy-usdt-shymkent-cash": {
+      "content_title": "Как купить USDT за наличные в Шымкенте",
+      "title": "USDT за наличные в Шымкенте: AUSU",
+      "description": "Касса AUSU в Шымкенте: адрес, график, минимум 25 000 тенге, онлайн-регистрация, проверка личности и получение USDT TRON в личный кошелёк."
+    },
+    "buy-usdt-uzbekistan-card": {
+      "content_title": "Как купить USDT в Узбекистане через Paynet, Uzcard или HUMO",
+      "title": "USDT через Paynet, Uzcard и HUMO: CityPay",
+      "description": "Покупка USDT в сумах через CityPay: Paynet, Uzcard или HUMO, комиссия, KYC, лимиты и внешний перевод на личный кошелёк."
+    },
+    "buy-usdt-tashkent-cash": {
+      "content_title": "Как купить USDT за наличные в Ташкенте",
+      "title": "USDT за наличные в Ташкенте: Voluto",
+      "description": "Маршрут Voluto: наличные UZS или USD в офисе Labzak 2A, минимум 200 USDT, часы работы, документы и получение USDT TRC-20 в кошелёк."
+    },
+    "buy-usdt-serbia-bank": {
+      "content_title": "Как купить USDT в Сербии банковским переводом",
+      "title": "Как купить USDT в Сербии через перевод RSD · Crypto Step Guide",
+      "description": "Маршрут ECD Wallet: перевод RSD, покупка USDT, комиссии и требования к иностранцам с проживанием в Сербии. Условия проверьте в аккаунте."
+    },
+    "buy-usdt-serbia-crypto-atm": {
+      "content_title": "Как купить USDT в Сербии за наличные в криптомате",
+      "title": "USDT в Сербии за наличные: криптоматы ECD · Crypto Step Guide",
+      "description": "Локации ECD в Белграде и Нови-Саде, минимум 1 000 RSD, комиссия 6,2% + 500 RSD и выдача USDT ERC-20 на личный адрес."
+    },
+    "buy-usdt-kazakhstan": {
+      "content_title": "Как купить USDT в Казахстане",
+      "title": "USDT в Казахстане: законные маршруты и реестры",
+      "description": "Как купить USDT в Казахстане: правовая основа, реестры лицензий, способы оплаты и статус проверки каждого маршрута."
+    },
+    "buy-usdt-belarus": {
+      "content_title": "Как купить USDT в Беларуси",
+      "title": "USDT в Беларуси: законные маршруты и реестры",
+      "description": "Как купить USDT в Беларуси: правовая основа, реестры лицензий, способы оплаты и статус проверки каждого маршрута."
+    },
+    "buy-usdt-ukraine": {
+      "content_title": "Как купить USDT в Украине",
+      "title": "USDT в Украине: законные маршруты и реестры",
+      "description": "Как купить USDT в Украине: правовая основа, реестры лицензий, способы оплаты и статус проверки каждого маршрута."
+    },
+    "buy-usdt-russia": {
+      "content_title": "Как купить USDT в России",
+      "title": "USDT в России: законные маршруты и реестры",
+      "description": "Как купить USDT в России: правовая основа, реестры лицензий, способы оплаты и статус проверки каждого маршрута."
+    },
+    "buy-usdt-kyrgyzstan": {
+      "content_title": "Как купить USDT в Кыргызстане",
+      "title": "USDT в Кыргызстане: законные маршруты и реестры",
+      "description": "Как купить USDT в Кыргызстане: правовая основа, реестры лицензий, способы оплаты и статус проверки каждого маршрута."
+    },
+    "buy-usdt-uzbekistan": {
+      "content_title": "Как купить USDT в Узбекистане",
+      "title": "USDT в Узбекистане: законные маршруты и реестры",
+      "description": "Как купить USDT в Узбекистане: правовая основа, реестры лицензий, способы оплаты и статус проверки каждого маршрута."
+    },
+    "buy-usdt-serbia": {
+      "content_title": "Как купить USDT в Сербии",
+      "title": "USDT в Сербии: законные маршруты и реестры",
+      "description": "Как купить USDT в Сербии: правовая основа, реестры лицензий, способы оплаты и статус проверки каждого маршрута."
+    },
+    "es": {
+      "content_title": "Cómo comprar USDT: guía por países en español",
+      "title": "Cómo comprar USDT: guía por países en español",
+      "description": "Rutas para comprar USDT en Argentina, Venezuela y España con fuentes oficiales, estado regulatorio de cada servicio y límites de la verificación."
+    },
+    "pt": {
+      "content_title": "Como comprar USDT: guia por país em português",
+      "title": "Como comprar USDT: guia por país em português",
+      "description": "Rotas para comprar USDT no Brasil com fontes oficiais, situação regulatória de cada serviço no Banco Central e limites da verificação."
+    },
+    "en": {
+      "content_title": "How to buy USDT: country guides in English",
+      "title": "How to buy USDT: country guides in English",
+      "description": "Routes for buying USDT in India and Nigeria with official sources, the regulatory status of each exchange, tax notes and the limits of our checks."
+    },
+    "es/argentina": {
+      "content_title": "Cómo comprar USDT en Argentina",
+      "title": "Cómo comprar USDT en Argentina con pesos: Lemon, Ripio y Belo",
+      "description": "Tres rutas para comprar USDT con pesos argentinos: inscripción en el registro PSAV de la CNV, comisiones, pasos y lo que no se verificó."
+    },
+    "es/venezuela": {
+      "content_title": "Cómo comprar USDT en Venezuela",
+      "title": "Cómo comprar USDT en Venezuela con bolívares: Crixto y Pago Móvil",
+      "description": "Ruta con Pago Móvil en Crixto: licencia de SUNACRIP que publica la empresa, pasos de la app y límites de la verificación."
+    },
+    "es/espana": {
+      "content_title": "Cómo comprar USDT (y USDC) en España",
+      "title": "Cómo comprar USDT en España: por qué MiCA lleva a USDC con Bit2Me",
+      "description": "Qué pasa con USDT en plataformas reguladas por MiCA, la alternativa USDC en Bit2Me, comisiones, pasos y lo que no se verificó."
+    },
+    "pt/brasil": {
+      "content_title": "Como comprar USDT no Brasil",
+      "title": "Como comprar USDT no Brasil com Pix: Foxbit e Mercado Bitcoin",
+      "description": "Duas rotas com Pix: situação «Em exame» no Banco Central, passos, taxas conhecidas e o que não foi verificado."
+    },
+    "en/india": {
+      "content_title": "How to buy USDT in India",
+      "title": "How to buy USDT in India with INR: CoinDCX, tax and eligibility",
+      "description": "A route with INR on CoinDCX: who can use it, FIU-IND registration, the 30% tax and 1% TDS, deposit steps and what we could not verify."
+    },
+    "en/nigeria": {
+      "content_title": "How to buy USDT in Nigeria",
+      "title": "How to buy USDT in Nigeria with naira: Quidax, ARIP status and stamp duty",
+      "description": "A route with naira on Quidax: SEC approval in principle, the new 1.5% stamp duty, fees, steps and what we could not verify."
+    }
+  }
+}
